@@ -1,0 +1,7 @@
+Labelbox: Es una plataforma de etiquetado de datos que ofrece una interfaz fácil de usar para etiquetar imágenes y otros tipos de datos. Proporciona herramientas de anotación versátiles y la capacidad de colaborar con equipos.
+
+RectLabel: Es una herramienta de etiquetado de imágenes específica para la plataforma macOS. Ofrece una interfaz intuitiva para etiquetar objetos en imágenes y también admite funciones como la clasificación y detección de texto.
+
+SuperAnnotate: Es una plataforma de etiquetado de datos diseñada específicamente para aplicaciones de visión por computadora. Proporciona herramientas avanzadas de anotación, como segmentación de instancias, puntos clave y seguimiento de objetos.
+
+VGG Image Annotator (VIA): Es una herramienta de anotación de imágenes gratuita y de código abierto desarrollada por el grupo de investigación Visual Geometry Group (VGG). Ofrece una interfaz sencilla para etiquetar objetos y regiones de interés en las imágenes.

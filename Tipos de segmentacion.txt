@@ -1,0 +1,8 @@
+Tipos de Segmentación:
+Segmentación semántica
+Segmentación de instancias
+Segmentación panóptica
+Arquitecturas:
+Fully Convolutional Network
+U-Net
+DeepLab Atrous

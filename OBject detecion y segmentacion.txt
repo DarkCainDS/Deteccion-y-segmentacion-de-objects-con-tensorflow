@@ -1,0 +1,7 @@
+Una vez se han comprendido los conceptos detrás del object detection y segmentation, se pueden utilizar modelos ya preentrenados. Muchos de los modelos más potentes de vision actuales son capaces de hacer object detection y segmentation, así que puedes revisar alguno del estado del arte y ver el que se ajuste más a tu problema. Por ejemplo:
+
+Segment Anything: https://github.com/facebookresearch/segment-anything
+Detectron 2: https://github.com/facebookresearch/detectron2
+Segformer: https://huggingface.co/docs/transformers/model_doc/segformer
+Un saludo,
+Sergio

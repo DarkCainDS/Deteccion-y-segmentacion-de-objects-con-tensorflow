@@ -1,0 +1,22 @@
+Introducción a segmentación de objetos
+Segmentación
+Una de las tareas más importantes de computer vision.
+Proporciona un mayor entendimiento de una escena.
+Pasos:
+Clasificación
+Localización
+Detección
+Este proceso se realiza pixel a pixel
+Tiene mayor coste computacional.
+Casos de uso:
+Montajes cinematográficos sobre pantallas verdes.
+Medicina
+Conducción automática
+Métricas
+Precisión a nivel píxeles
+IoU
+F1 Score
+Arquitectura Encoder-Decoder
+Dos partes diferenciadas: Encoder y Decoder
+El Encoder genera características discriminativas en resolución baja.
+El Decoder proyecta las características en el espacio de pixeles en resolución alta.

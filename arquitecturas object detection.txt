@@ -1,0 +1,22 @@
+En una etapa: Realizan la detección + localización en un solo pase hacia delaten de la red.
+
+Por lo general constan de 3 componentes: Un extractor de características, un clasificador y un regresor de cajas.
+Estos componentes principales, se entrenan en conjunto para detectar objetos en una imagen.
+
+Elementos clave:
+
+1. Extracción de características: Está etapa es responsable de extraer características importantes de la imagen de entrada. Para esto, se utiliza una CNN pre-entrenada, que se encarga de extraer características visuales de la imagen.
+2. Clasificación: Está etapa se encarga de determinar, si la imagen contiene un objeto específico o no. Para esto se utiliza un NN totalmente conectada que toma las características extraídas y las clasifica en diferentes categorías de objetos.
+3. Regresión de cajas: Se encargará de determinar la ubicación y el tamaño de la caja que rodea el objeto. Para esto se utiliza otra NN que toma las características extraídas y predice la posición y el tamaño de la caja que rodea el objeto
+
+Multietapa: El proceso se realiza utilizando múltiples etapas. Por lo general, consta de dos componentes principales; un detector de regiones y un clasificador/regresor
+
+Elementos clave:
+
+1. Detector de regiones: Su objetivo es generar una serie de regiones propuestas que puedan contener objetos en la imagen de entrada. Para lograr esto, se utiliza una CNN, que procesa la imagen en ventanas de diferentes tamaños y posiciones, luego utiliza técnicas como la propuesta selectiva de búsqueda (Selective Serch) o redes neuronales regionales convolucionales (R-CNN) para generar regiones candidatas que podrían contener objetos.
+
+2. Clasificación/regresión: Está etapa se encarga de clasificar y regresar las regiones propuestas generadas por el detector de regiones. Para esto, se utiliza una NN totalmente conectada que toma las características extraídas de la región de objetos, o regresa la posición y el tamaño de la caja que rodea el objeto.
+
+A diferencia de la arquitectura una etapa que se entrenan en conjunto. En este tipo de arquitectura se entrenan en dos etapas separadas.
+En la primera etapa, se entrena el detector de regiones utilizando técnicas de aprendizaje supervisado, donde se proporcionan ejemplos de imágenes y regiones de objetos verdaderos.
+Segunda etapa, se entrena el clasificador/regresor utilizando técnicas de aprendizaje supervisado y los datos de las regiones propuestas y sus correspondientes etiquetas de clases y/o cajas delimitadoras.
